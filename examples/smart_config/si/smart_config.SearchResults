@@ -1,0 +1,3 @@
+---- user_init Matches (2 in 1 files) ----
+User_main.c (e:\workspace\gizwits\src\esp8266_rtos_sdk\examples\smart_config\user): * FunctionName : user_init
+User_main.c (e:\workspace\gizwits\src\esp8266_rtos_sdk\examples\smart_config\user):user_init(void)

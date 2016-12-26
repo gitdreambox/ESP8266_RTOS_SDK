@@ -6,8 +6,9 @@ Rem example:
 Rem set SDK_PATH=/c/esp_iot_sdk_freertos
 Rem set BIN_PATH=/c/esp8266_bin
 
-::set SDK_PATH=/cygdrive/e/workspace/gizwits/src/ESP8266_RTOS_SDK
-set SDK_PATH=../..
+::set SDK_PATH=/cygdrive/e/ESP8266_RTOS_SDK
+::set SDK_PATH=./../../../ESP8266_RTOS_SDK
+set SDK_PATH=%~pd0..\..
 set BIN_PATH=./bin
 echo SDK_PATH:%SDK_PATH%
 echo BIN_PATH:%BIN_PATH%

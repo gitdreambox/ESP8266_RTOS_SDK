@@ -8,7 +8,10 @@ Rem set BIN_PATH=/c/esp8266_bin
 
 ::set SDK_PATH=/cygdrive/e/ESP8266_RTOS_SDK
 ::set SDK_PATH=./../../../ESP8266_RTOS_SDK
-set SDK_PATH=%~pd0..\..
+::set SDK_PATH=%~pd0..\..
+for /f "delims=" %%i in ('pwd') do (
+    set "SDK_PATH=/cygdrive%%i/../.."
+)
 set BIN_PATH=./bin
 echo SDK_PATH:%SDK_PATH%
 echo BIN_PATH:%BIN_PATH%
